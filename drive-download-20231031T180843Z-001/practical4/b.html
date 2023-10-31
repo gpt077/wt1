@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Fibonacci Series JS</title> 
+</head>
+<body>
+<script type = "text/javascript">
+function fibo(num)
+{
+var n1 = 0;
+var n2 = 1;
+var temp;
+var i = 0;
+for (let i = 0; i< num; i++)
+{
+temp = n1+n2;
+n1=n2;
+n2=temp;
+}
+return n2;
+}
+const f1=parseFloat(prompt("Enter a number to get the sum of Fibonacci series:"));
+window.alert("The sum of Fibonacci series is "+fibo(f1));
+</script>
+</body>
+</html>

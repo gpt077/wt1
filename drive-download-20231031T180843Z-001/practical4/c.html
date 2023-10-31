@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Page Title</title> 
+</head>
+<body>
+<script>
+var num,d;
+var m=parseInt(prompt("Enter first number"));
+var n=parseInt(prompt("Enter second number"));
+for(num=m;num<=n;num++)
+{
+for(d=2;d<num;d++)
+{
+if(num%d==0)
+break;
+}if(d==num)
+document.write("<br>",+num);
+}
+</script>
+</body>
+</html>

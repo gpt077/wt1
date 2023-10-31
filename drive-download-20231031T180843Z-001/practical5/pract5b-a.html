@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pract5a-4</title>
+</head>
+<body>
+<p>Window Object Demonstration</p>
+<script type="text/javascript">
+function alert1()
+{
+alert("Hello Alert Box");
+}
+function confirmFunction()
+{
+confirm("Press a button!");
+}
+function promtFunction()
+{
+let person=prompt("Plese Enter your Name","Monkey.D.Luffy");
+if(person != null){
+document.write("Hello "+person + "! How are you today?");
+}
+}
+</script>
+<input type="button" value="Click" onclick="alert1()"><br>
+<input type="button" value="Confirm" onclick="confirmFunction()"><br>
+<input type="button" value="Prompt" onclick="promtFunction()"><br>
+</body>
+</html>
